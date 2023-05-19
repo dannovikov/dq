@@ -1,0 +1,8 @@
+May 2nd:
+- Realized that tying together the programs
+  via an intermediate file write could incur overhead.
+
+- Perhaps, since I am building the nextflow script,
+- I could parralelize each function 
+
+- Installing BioExt and thus Bealign is proving challenging on my M2 Mac. Switching to windows. 
