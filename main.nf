@@ -29,7 +29,7 @@ process clean_nucleotides {
     """
 }
 
-process align_to_ref {
+process identify_region {
     input:
     stdin
 
@@ -38,7 +38,20 @@ process align_to_ref {
 
     script:
     """
-    python $baseDir/bealign.py 
+    python $baseDir/identify_hiv_region_and_direction.py 
+    """
+}
+
+process check_prrt_reversal {
+    input:
+    stdin
+
+    output:
+    stdout
+
+    script:
+    """
+    python $baseDir/check_prrt_reversal.py
     """
 }
 
@@ -59,5 +72,5 @@ process write_output {
 
 workflow {
     def seqs = Channel.fromPath(params.sequences)
-    split_sequences(seqs) | flatten | clean_nucleotides | align_to_ref | collect | write_output
+    split_sequences(seqs) | flatten | clean_nucleotides | identify_region | check_prrt_reversal | collect | write_output
 }
