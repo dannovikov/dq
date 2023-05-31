@@ -2,7 +2,8 @@ import json
 import sys
 import os
 from tn93 import tn93
-from Bio.Seq import Seq, SeqRecord
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
 from Bealign import bealign, references
 from emit import emit
 
