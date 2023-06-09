@@ -1,4 +1,0 @@
-[{"id": ">S3", "clean_seq": "AGTCAAGGAGTAGTAGAATCTATGAATAAGGATTAAAGAAAATTATAGGACAGGTAAGAGATCAGGCTGAACATC", "flags": {"unknownChars": 1, "ambig5percent": 0, "nString": 0, "pr_uni": 0, "rt_uni": 0, "int_uni": 0, "pr_bi": 0, "rt_bi": 0, "int_bi": 0}}
-, {"id": ">S2", "clean_seq": "AGTCAAGGAGTAGTAGAATCTATGAATAAGGAATTAAAGAAAATTATAGGACAGGTAAGAGATCAGGCTGAACATC", "flags": {"unknownChars": 0, "ambig5percent": 0, "nString": 0, "pr_uni": 0, "rt_uni": 0, "int_uni": 1, "pr_bi": 0, "rt_bi": 0, "int_bi": 1}}
-, {"id": ">S1", "clean_seq": "AGTCAAGGAGTAGTAGAATCTATGAATAAAGAATTAAAGAAAATTATAGGACAGGTAAGAGATCAGGCTGAACATC", "flags": {"unknownChars": 0, "ambig5percent": 0, "nString": 0, "pr_uni": 0, "rt_uni": 0, "int_uni": 1, "pr_bi": 0, "rt_bi": 0, "int_bi": 1}}
-]
